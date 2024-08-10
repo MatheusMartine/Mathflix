@@ -1,0 +1,35 @@
+body{
+    color: green;
+    background: yellow;
+    font-family: "PT Serif", serif;
+}
+
+header{
+    border: solid 2x white;
+}
+/* código omitido */
+
+section {
+    background: rgb(255, 252, 68);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+img{
+height: 200px;
+}
+/* código escondido */
+
+.categoria-videos img:hover {
+    opacity 1.0;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
